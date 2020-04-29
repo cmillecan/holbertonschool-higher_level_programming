@@ -1,5 +1,3 @@
 #!/usr/bin/python3
-a = 0
-while a < 98:
-    a += 1
+for a in range(0,99):
     print("{:d} = {}".format(a, hex(a)))
