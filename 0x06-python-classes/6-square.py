@@ -3,8 +3,8 @@
 
 
 class Square:
-    """Defines a square"""
     def __init__(self, size=0, position=(0, 0)):
+        """Initializes data"""
         self.size = size
         self.position = position
 
@@ -27,7 +27,7 @@ class Square:
         """Retrieves position"""
         return self.__position
 
-    @size.setter
+    @position.setter
     def position(self, value):
         """Property setter"""
         if type(value) != tuple or len(value) != 2 or type(value[0]) != int\
