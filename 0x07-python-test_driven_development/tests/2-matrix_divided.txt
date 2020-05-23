@@ -14,12 +14,6 @@ Now use it:
     [[1, 2, 3], [4, 5, 2.5]]
 
 
-    >>> matrix_divided([[]], 2)
-    Traceback (most recent call last):
-        ...
-    TypeError: matrix must be a matrix (list of lists) of integers/floats
-
-
     >>> matrix_divided(8, 4)
     Traceback (most recent call last):
         ...
