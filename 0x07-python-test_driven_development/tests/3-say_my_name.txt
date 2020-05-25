@@ -19,8 +19,8 @@ Now use it:
     >>> say_my_name("", "")
     My name is  
 
-    >>> say_my_name(" ", " ")
-    My name is     
+    >>> say_my_name("  ", "  ")
+    My name is      
 
     >>> say_my_name("Max", "Sharp")
     My name is Max Sharp
