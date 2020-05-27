@@ -4,4 +4,4 @@
 
 class LockedClass:
     """locks class"""
-    __slots__ = ['first name',]
+    __slots__ = ['first name']
