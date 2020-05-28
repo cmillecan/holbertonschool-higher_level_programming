@@ -38,6 +38,7 @@ Now use it:
     TypeError: text must be a string
 
     >>> text_indentation('.')
+    .
     <BLANKLINE>
 
     >>> text_indentation(float('nan'))
