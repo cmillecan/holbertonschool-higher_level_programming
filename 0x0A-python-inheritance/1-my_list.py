@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+MyList mudule
+"""
+
+
 class MyList(list):
     """
     MyList inherits from list
