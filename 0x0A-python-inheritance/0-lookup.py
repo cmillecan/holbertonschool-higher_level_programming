@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Lookup mudule
+Lookup module
 """
 
 

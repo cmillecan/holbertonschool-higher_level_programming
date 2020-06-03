@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-MyList mudule
+MyList module
 """
 
 
