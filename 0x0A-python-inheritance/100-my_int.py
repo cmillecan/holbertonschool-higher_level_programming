@@ -3,6 +3,7 @@
 MyInt module
 """
 
+
 class MyInt(int):
     """
     Inherits from int
