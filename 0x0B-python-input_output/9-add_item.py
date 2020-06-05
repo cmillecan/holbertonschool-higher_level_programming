@@ -16,7 +16,7 @@ new_list = []
 if os.path.exists(filename):
     new_list = load_from_json_file(filename)
 
-for i in sys.argv[1:]:
-    new_list.append(i)
+for i in range(1, len(sys.argv)):
+    new_list.append(sys.argv[i])
 
 save_to_json_file(new_list, filename)
