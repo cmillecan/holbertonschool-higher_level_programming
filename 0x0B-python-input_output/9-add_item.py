@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-""" Task 9 """
+"""
+Adds all arguments to a Python list
+Saves them to a file
+"""
+
 from sys import argv
 import os.path
 
