@@ -3,7 +3,7 @@
 Adds all arguments to a Python list
 Saves them to a file
 """
-
+import json
 from sys import argv
 import os.path
 
@@ -12,10 +12,9 @@ load_from_json_file = __import__('8-load_from_json_file').load_from_json_file
 
 filename = "add_item.json"
 
+new_list = []
 if os.path.exists(filename):
     new_list = load_from_json_file(filename)
-else:
-    new_list = []
 
 for i in sys.argv[1:]:
     new_list.append(i)
