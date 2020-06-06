@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 """ Task 14 """
 
+
 def pascal_triangle(n):
     """
-    Returns a list of lists of integers representing the 
+    Returns a list of lists of integers representing the
     Pascal’s triangle of n.
     """
     row = [1]
