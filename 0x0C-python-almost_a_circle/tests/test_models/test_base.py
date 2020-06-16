@@ -3,6 +3,7 @@
 Unittest for Base
 """
 
+import sys
 import unittest
 from models.base import Base
 from models.rectangle import Rectangle
@@ -10,4 +11,7 @@ from models.square import Square
 
 
 class TestBase(unittest.TestCase):
-    """Class TestBase"""
+    """Base tests"""
+    def setUp(self):
+        """Nb_objects"""
+        Base._Base__nb_objects = 0
