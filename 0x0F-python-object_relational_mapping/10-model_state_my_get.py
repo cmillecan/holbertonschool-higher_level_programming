@@ -15,7 +15,7 @@ if __name__ == "__main__":
     session = Session()
 
     for state in session.query(State).order_by(State.id).all():
-        if state:
+        if argv[4] == state.name:
             print("{}".format(state.id))
         else:
             print("Not found")
