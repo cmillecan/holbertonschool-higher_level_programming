@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Lists all State objects"""
+"""Lists all State objects that contain the letter a"""
 from model_state import Base, State
 from sys import argv
 from sqlalchemy import (create_engine)
