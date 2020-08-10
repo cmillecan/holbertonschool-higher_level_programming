@@ -13,7 +13,7 @@ if __name__ == "__main__":
     )
 
     cur = db.cursor()
-    cur.execute("SELECT * FROM states WHERE BINARY name='{}'".format(argv[4]))
+    cur.execute("SELECT * FROM states WHERE name LIKE BINARY 'N%' ORDER BY id")
 
     rows = cur.fetchall()
     for row in rows:
