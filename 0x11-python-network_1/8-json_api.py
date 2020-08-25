@@ -9,15 +9,15 @@ from sys import argv
 
 
 if __name__ == "__main__":
-    data = {'q': ''}
     if len(argv) > 1:
-        data['q'] = argv[1]
-        req = requests.post('http://0.0.0.0:5000/search_user', data)
+        q = argv[1]
+    else:
+        q = ''
+        req = requests.post('http://0.0.0.0:5000/search_user', data={'q': q})
         try:
             data = req.json()
             if data:
-                print('[{}] {}'.format(data.get('id'),
-                                       data.get('name')))
+                print('[{}] {}'.format(data.get('id'), data.get('name')))
             else:
                 print('No result')
         except:
