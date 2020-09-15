@@ -1,5 +1,5 @@
 #!/usr/bin/node
-let array = process.argv.slice(2);
+const array = process.argv.slice(2);
 if (process.argv.length <= 3) {
   console.log(0);
 } else {
